@@ -1,4 +1,4 @@
-module model (
+module full_adder (
 	input        a,
 	input        b,
 	input        cin,
