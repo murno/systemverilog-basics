@@ -9,10 +9,10 @@ module fibonacci_generator #(
 
 	always_ff @(posedge clk) begin
 		if (!resetn) begin
-			current <= 1;
+			current  <= 1;
 			previous <= 0;
 		end else begin
-			current <= current + previous;
+			current  <= current + previous;
 			previous <= current;
 		end
 	end
